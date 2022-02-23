@@ -1,0 +1,42 @@
+h1 {
+  background-color: #232023;
+  color: #ddd;
+  padding-inline-start: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+table,
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  margin: auto;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+}
+tr:hover {
+  cursor: pointer;
+  background-color: darkgrey;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #232023;
+  color: antiquewhite;
+  margin-top: 20px;
+  align-self: flex-end;
+}
+button:hover {
+  cursor: pointer;
+  border: solid 2px #ddd;
+}
