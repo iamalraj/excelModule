@@ -22,6 +22,9 @@ td {
 table {
   width: 100%;
 }
+th {
+  background-color: darkgray;
+}
 tr:hover {
   cursor: pointer;
   background-color: darkgrey;
