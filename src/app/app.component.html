@@ -1,6 +1,27 @@
 <h1>User Data</h1>
 
+<!-- (change)="onFileChange($event)" -->
 <div id="body">
+  <input
+    id="input"
+    type="file"
+    (change)="onFileChange($event)"
+    multiple="false"
+  />
+
+  <table>
+    <tbody>
+      <tr *ngFor="let row of data">
+        <td *ngFor="let val of row">
+          {{ val }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button (click)="exportExcel()">Download</button>
+</div>
+<!--
   <table id="excel-table">
     <tr>
       <th>Id</th>
@@ -15,6 +36,4 @@
       <td>{{ item.email }}</td>
     </tr>
   </table>
-
-  <button (click)="exportexcel()">Download</button>
-</div>
+-->

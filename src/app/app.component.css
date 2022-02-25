@@ -4,30 +4,43 @@ h1 {
   padding-inline-start: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 20px;
+  border-radius: 7px;
+  border: solid #ddd 2px;
 }
 table,
-th,
+tr,
 td {
   padding: 10px;
   text-align: left;
   margin: auto;
 }
 
-th,
+tr,
 td {
   border-bottom: 1px solid #ddd;
 }
 
 table {
+  padding-top: 5px;
   width: 100%;
+  border-top: 3px solid #ddd;
 }
-th {
-  background-color: darkgray;
-}
+
 tr:hover {
   cursor: pointer;
   background-color: darkgrey;
+}
+
+input {
+  padding: 5px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  float: right;
+  border-left: #ddd 1px solid;
+}
+
+input:hover {
+  cursor: pointer;
 }
 
 button {
